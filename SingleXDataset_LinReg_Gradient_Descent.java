@@ -1,5 +1,5 @@
 /*
- * Finding the linear regression of one set of X and Y data using gradient descent
+ * Finding the linear regression of one set of X and Y data using gradient descent (No user input)
  * @author wang
  * Credits to Andrew Ng
  * Link: https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf
