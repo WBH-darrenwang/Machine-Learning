@@ -50,7 +50,7 @@ public class SingleXDataset_LinReg_Gradient_Descent{
 		 * function.
 		 * 
 		 * By using partial derivatives, it turns out that the derivative of the cost function in respect to b (in y = mx + b)
-		 * is (predicted y - actual y).
+		 * is (predicted y - actual y). The derivative allows us to focus on the slope of the cost function. 
 		 * The derivative of the cost function in respect to m is (predicted y - actual y) * corresponding x data.  
 		 * 
 		 * sum0 and sum1 correlates to the sum when inputed into the derivative of the cost function
