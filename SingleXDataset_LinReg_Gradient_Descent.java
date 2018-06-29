@@ -50,7 +50,9 @@ public class SingleXDataset_LinReg_Gradient_Descent{
 		 * function.
 		 * 
 		 * By using partial derivatives, it turns out that the derivative of the cost function in respect to b (in y = mx + b)
-		 * is (predicted y - actual y). The derivative allows us to focus on the slope of the cost function. 
+		 * is (predicted y - actual y). The derivative allows us to focus on the slope of the cost function. By using the chain
+		 * rule and power rule, the derivative can be found.
+		 *
 		 * The derivative of the cost function in respect to m is (predicted y - actual y) * corresponding x data.  
 		 * 
 		 * sum0 and sum1 correlates to the sum when inputed into the derivative of the cost function
@@ -98,6 +100,8 @@ public class SingleXDataset_LinReg_Gradient_Descent{
 		//Rounding to nearest thousandth place
 		double round_theta0 = Math.round(theta0 * 1000.0) / 1000.0;
 		double round_theta1 = Math.round(theta1 * 1000.0) / 1000.0;
+		
+		
 		System.out.println("Final: y = " + round_theta0 + " + " + round_theta1 + "x");
 	}
 	
