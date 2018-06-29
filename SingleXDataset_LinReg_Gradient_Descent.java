@@ -89,19 +89,25 @@ public class SingleXDataset_LinReg_Gradient_Descent{
 			sum0 = 0;
 			sum1 = 0;
 			//If you want, you can implement your learning rate formula here
+			
+			//Using the formula derived by taking the partial derivative of the cost function
 			for(int i = 0; i < size; i++) {
 				sum0 += linear_regression(datax[i],theta0,theta1) - datay[i];
 				sum1 += (linear_regression(datax[i],theta0,theta1) - datay[i]) * datax[i];
 			}
+			//Applying the LMS algorithm
 			theta0 = theta0 - (learning_rate * sum0 );
 			theta1 = theta1 - (learning_rate * sum1 );
+			
+			//Prints out the answer to each iteration
 			System.out.println("y = " + theta0 + " + " + theta1 + "x");
 		}
+		
 		//Rounding to nearest thousandth place
 		double round_theta0 = Math.round(theta0 * 1000.0) / 1000.0;
 		double round_theta1 = Math.round(theta1 * 1000.0) / 1000.0;
 		
-		
+		//Prints out the final answer
 		System.out.println("Final: y = " + round_theta0 + " + " + round_theta1 + "x");
 	}
 	
