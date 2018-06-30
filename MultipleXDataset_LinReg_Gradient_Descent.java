@@ -60,8 +60,7 @@ public class MultipleXDataset_LinReg_Gradient_Descent {
 		int training_sets = master_arr.get(0).size();
 		double cost = 0.0;
 		double learning_rate = 0.025;
-		double total_cost = 0.0;
-		
+
 		/*
 		 * Using the cost function, partial derivatives, and LMS algorithm to find the best line of fit
 		 * The first outer loop controls the iterations
