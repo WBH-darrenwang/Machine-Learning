@@ -1,0 +1,20 @@
+//Pseudocode code for finding the line of best fit using the normal equation
+
+public class Normal_Equation_LinReg_Pseudo{
+    public static void main(String[] args){
+        let X_matrix be the x dataset matrix (where each row corresponds to each training set)
+        let Y_matrix be the y dataset matrix (where each row corresponds to each y value)
+        let X_transpose be the transpose of X_matrix
+        let X_result be the multiplication of X_matrix and X_transpose
+        let X_inverse be the inverse of X_result
+        let X_Y_matrix be the multiplication of X_matrix and Y_matrix
+        
+        /*
+         * each value inside the theta_matrix corresponds to the n'th X
+         * if theta matrix has the values .475, 1.7519 (going from top to bottom), the equation would be 
+         * y = 0.475x0 + 1.7519x1
+         * because x0 is always equals to 1, the final equation would be y = 0.475 + 1.7519x1
+         */
+        let theta_matrix be the multiplication of X_inverse and X_Y_matrix
+    }
+}
