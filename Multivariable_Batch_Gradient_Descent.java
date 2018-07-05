@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class MultipleXDataset_LinReg_Gradient_Descent {
+public class Multivariable_Batch_Gradient_Descent {
 
 	public static void main(String[] args) {
 
