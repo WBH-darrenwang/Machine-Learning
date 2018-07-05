@@ -4,7 +4,7 @@
  * Credits to Andrew Ng
  * Link: https://see.stanford.edu/materials/aimlcs229/cs229-notes1.pdf
  */
-public class SingleXDataset_LinReg_Gradient_Descent{
+public class Univariable_Batch_Gradient_Descent{
 	
 	public static void main(String[] args) {
 		
