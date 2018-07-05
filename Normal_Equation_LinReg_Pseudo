@@ -2,6 +2,12 @@
 
 public class Normal_Equation_LinReg_Pseudo{
     public static void main(String[] args){
+        
+        /*
+         * As the # of training examples increases, the more inefficient it becomes
+         * The complexity to compute inverse(transpose of X * X) is O(n^3)
+         */
+        
         let X_matrix be the x dataset matrix (where each row corresponds to each training set)
         let Y_matrix be the y dataset matrix (where each row corresponds to each y value)
         let X_transpose be the transpose of X_matrix
