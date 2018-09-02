@@ -62,7 +62,7 @@ public class Multivariable_Batch_Gradient_Descent {
 		double learning_rate = 0.025;
 
 		/*
-		 * Using the cost function, partial derivatives, and LMS algorithm to find the best line of fit
+		 * Using the cost function, partial derivatives, and LMS algorithm to find theline of best fit
 		 * The first outer loop controls the iterations
 		 */
 		
